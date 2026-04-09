@@ -20,6 +20,5 @@ class CustomerUpdate(BaseModel):
 
 class CustomerResponse(CustomerBase):
     id: int
-
     class Config:
         orm_mode = True
