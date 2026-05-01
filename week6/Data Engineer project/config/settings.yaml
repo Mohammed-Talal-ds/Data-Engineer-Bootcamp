@@ -1,0 +1,31 @@
+# Source Database
+sqlite_path: "data/source_db.sqlite"
+
+# Staging Database (Source landing area)
+staging_db:
+  host: "localhost"
+  port: 5432
+  database: "brazilian_eccomerce"
+  user: "postgres"
+  password: "admin"
+
+# Data Warehouse (Final star schema)
+dw_db:
+  host: "localhost"
+  port: 5432
+  database: "brazilian_ecommerce_dw"
+  user: "postgres"
+  password: "admin"
+
+# Extraction list
+tables_to_extract:
+  - "customers"
+  - "leads_closed"
+  - "leads_qualified"
+  - "order_items"
+  - "order_payments"
+  - "order_reviews"
+  - "orders"
+  - "product_category_name_translation"
+  - "products"
+  - "sellers"
