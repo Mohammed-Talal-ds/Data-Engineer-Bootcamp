@@ -13,11 +13,9 @@ def run_extraction():
         try:
             logging.info(f"--- Starting Extraction: {table_name} ---")
             
-            # Extract from SQLite and Load to Postgres Staging
-            # We use a chunked approach to stay scalable
+
             for chunk in pd.read_sql_table(table_name, sqlite_engine, chunksize=10000):
-                # We use if_exists='append' but usually truncate the table 
-                # before the first chunk if we want a fresh Batch Load.
+
                 chunk.to_sql(
                     name=table_name,
                     con=staging_engine,
@@ -31,6 +29,3 @@ def run_extraction():
         except Exception as e:
             logging.error(f"Error during extraction of {table_name}: {e}")
             raise
-
-if __name__ == "__main__":
-    run_extraction()
