@@ -1,0 +1,11 @@
+{
+    "order_id": "ORD_DUPLICATE",
+    "customer_id": 4,
+    "product_id": 1,
+    "quantity": 3,
+    "price": 50,
+    "payment_method": "Credit Card",
+    "status": "Pending",
+    "email": null,
+    "order_date": "2026-05-08 18:40:00"
+}

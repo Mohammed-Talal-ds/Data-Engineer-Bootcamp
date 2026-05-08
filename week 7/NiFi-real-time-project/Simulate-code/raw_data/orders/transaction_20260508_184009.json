@@ -1,0 +1,11 @@
+{
+    "order_id": "ORD_DUPLICATE",
+    "customer_id": 5,
+    "product_id": 3,
+    "quantity": 2,
+    "price": "100$",
+    "payment_method": "PayPal",
+    "status": "Completed",
+    "email": "",
+    "order_date": "2026-05-08 18:40:09"
+}

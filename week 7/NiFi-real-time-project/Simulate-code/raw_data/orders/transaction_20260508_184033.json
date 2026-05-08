@@ -1,0 +1,11 @@
+{
+    "order_id": "ORD_DUPLICATE",
+    "customer_id": 3,
+    "product_id": 1,
+    "quantity": null,
+    "price": "100$",
+    "payment_method": "Credit Card",
+    "status": "Pending",
+    "email": "mariagreen@example.net",
+    "order_date": "2026-05-08 18:40:33"
+}
