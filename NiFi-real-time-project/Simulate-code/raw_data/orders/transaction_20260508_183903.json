@@ -1,0 +1,11 @@
+{
+    "order_id": "ORD_DUPLICATE",
+    "customer_id": 1,
+    "product_id": 5,
+    "quantity": 1,
+    "price": "100$",
+    "payment_method": "Cash",
+    "status": "Canceled",
+    "email": null,
+    "order_date": "2026-05-08 18:39:03"
+}

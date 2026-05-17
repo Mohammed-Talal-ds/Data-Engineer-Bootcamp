@@ -1,0 +1,11 @@
+{
+    "order_id": "ORD2",
+    "customer_id": 1,
+    "product_id": 1,
+    "quantity": 1,
+    "price": 50,
+    "payment_method": "Cash",
+    "status": "Pending",
+    "email": "shepardcatherine@example.net",
+    "order_date": "2026-05-08 18:35:44"
+}
